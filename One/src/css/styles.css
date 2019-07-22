@@ -1,0 +1,203 @@
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.align-right {
+  -ms-flex-item-align: right;
+      -ms-grid-row-align: right;
+      align-self: right;
+}
+
+.btn-trip {
+  background-color: #ffb03a;
+  color: white;
+}
+
+.text-color-orange {
+  color: #ffb03a;
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.text-cool {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.text-color-grey {
+  color: grey;
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-left: 10px;
+}
+
+.right-margin {
+  margin-right: 40px;
+}
+
+.section-one {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+.navv {
+  width: 100%;
+  height: 10vh;
+  background-color: #182132;
+}
+
+.big-col {
+  width: 100%;
+  height: 75vh;
+  background-image: url("../img/turquoise_waters_kelingking_beach_indonesia-wallpaper-1600x900.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 90% 90%;
+}
+
+.small-col {
+  width: 100%;
+  height: 75vh;
+  background-color: #182132;
+}
+
+.md-card-1 {
+  width: 100px;
+  height: 85px;
+  background: #3e7eff;
+  position: relative;
+  bottom: 200px;
+  font-size: 20px;
+  padding-top: 25px;
+  padding-left: 60px;
+}
+
+.md-card-1 * {
+  color: white;
+}
+
+.md-card-2 {
+  width: 100px;
+  height: 105px;
+  background: white;
+  position: relative;
+  bottom: 200px;
+}
+
+.md-card-2 #continent {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 280;
+  margin-top: 5px;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+}
+
+.md-card-2 #current-location, .md-card-2 #subregion {
+  margin-bottom: 2.5px;
+  text-align: right;
+  font-weight: 200;
+}
+
+#country-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.plus {
+  height: 40px;
+  text-align: center;
+}
+
+.plus * {
+  font-size: 30px;
+  background-color: #ffb03a;
+  color: white;
+  padding-right: 2px;
+}
+
+.nav-top {
+  background-color: white;
+  width: 100%;
+  height: 10vh;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.section-two {
+  height: 75vh;
+  width: 100%;
+}
+
+.sect-two-divs-main {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  padding: 10px;
+}
+
+.sect-two-divs-main h3 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 40px;
+}
+
+.sect-two-divs-minor {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  padding: 0;
+  overflow: hidden;
+}
+
+.location-img-one {
+  height: 70%;
+  width: 100%;
+  background-image: url("../img/african_sunset-1600x900.jpg");
+  background-size: cover;
+  background-position: -40px 0px;
+  background-repeat: no-repeat;
+}
+
+.location-img-two {
+  height: 70%;
+  width: 100%;
+  background-image: url("../img/apple_mac_os_x_high_sierra-wallpaper-1600x900.jpg");
+  background-size: cover;
+  background-position: -80px 0px;
+  background-repeat: no-repeat;
+}
+
+.section-three {
+  height: 55vh;
+  width: 100%;
+  background-color: white;
+}
+
+.sect-three-main {
+  width: 100%;
+  height: 320px;
+  background-color: white;
+  padding: 15px 15px;
+}
+
+.sect-three-minor {
+  width: 100%;
+  height: 320px;
+  background-color: white;
+  padding: 0;
+}
+
+.weather {
+  font-size: 90px;
+  margin-bottom: 5px;
+}
+
+.table {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=styles.css.map */

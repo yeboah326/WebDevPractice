@@ -1,0 +1,228 @@
+$test-color-one : #383bff;
+$test-color-two: #ffadad;
+$test-color-three: #e7ff61;
+
+$main-color-one: rgb(255, 255, 255);
+$main-color-two: rgb(24, 33, 50);
+$main-color-three: rgb(62, 126, 255);
+$main-color-four: rgb(255, 176, 58);
+
+// Scrollba Disappear
+
+::-webkit-scrollbar{
+    width: 0px;
+    background: transparent;
+}
+
+// General Class
+.align-right{
+    align-self: right;
+}
+
+.btn-trip{
+    background-color: $main-color-four;
+    color: $main-color-one;
+}
+
+.text-color-orange{
+    color: $main-color-four;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.text-cool{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.text-color-grey{
+    color: grey;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-left: 10px;
+}
+
+.right-margin{
+    margin-right: 40px;
+}
+
+// Section One
+.section-one{
+    height: 100vh;
+    width: 100%;
+    background-color: $main-color-one;
+}
+.navv{
+    width: 100%;
+    height: 10vh;
+    background-color: $main-color-two;
+}
+
+.big-col{
+    width: 100%;
+    height: 75vh;
+    // background-color: $test-color-two;
+    // padding: 0;
+    // margin: 0;
+    background-image: url('../img/turquoise_waters_kelingking_beach_indonesia-wallpaper-1600x900.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 90% 90%;
+}
+
+.small-col{
+    width: 100%;
+    height: 75vh;
+    background-color: $main-color-two; 
+}
+
+.md-card-1{
+    width: 100px;
+    height: 85px;
+    background: $main-color-three;
+    position: relative;
+    bottom: 200px;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 60px;
+
+    *{
+        color: $main-color-one;
+    }
+}
+
+.md-card-2{
+    width: 100px;
+    height: 105px;
+    background: $main-color-one;
+    position: relative;
+    bottom: 200px;
+    
+    #continent{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 280;
+        margin-top: 5px;
+        margin-bottom: 0;
+        letter-spacing: 2px;
+    }
+
+    #current-location, #subregion{
+        margin-bottom: 2.5px;
+        text-align: right;
+        font-weight: 200;
+    }
+}
+
+#country-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+.plus{
+    height: 40px;
+    // width: 30px;
+    // padding: 0px;
+    text-align: center;
+
+    *{
+        font-size: 30px;
+        background-color: $main-color-four;
+        color: $main-color-one;
+        padding-right: 2px;
+        // text-decoration: none;
+    }
+}
+
+// Section One Contents
+
+.nav-top{
+    background-color: $main-color-one;
+    width: 100%;
+    height: 10vh;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+// Section Two
+
+.section-two{
+    height: 75vh;
+    width: 100%;
+    // background-color: $test-color-two;
+}
+
+.sect-two-divs-main{
+    width: 100%;
+    height: 400px;
+    background-color: $main-color-one;
+    padding: 10px;
+    
+    h3{    
+        font-family: 'Merriweather Sans', sans-serif;
+        font-size: 40px;
+    }
+}
+
+.sect-two-divs-minor{
+    width: 100%;
+    height: 400px;
+    background-color: $main-color-one;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.location-img-one{
+    height: 70%;
+    width: 100%;
+    background-image: url('../img/african_sunset-1600x900.jpg');
+    background-size: cover;
+    background-position: -40px 0px;
+    background-repeat: no-repeat;
+}
+
+.location-img-two{
+    height: 70%;
+    width: 100%;
+    background-image: url('../img/apple_mac_os_x_high_sierra-wallpaper-1600x900.jpg');
+    background-size: cover;
+    background-position: -80px 0px;
+    background-repeat: no-repeat;
+}
+
+
+// Section Three
+
+.section-three{
+    height: 55vh;
+    width: 100%;
+    background-color: $main-color-one;
+}
+
+.sect-three-main{
+    width: 100%;
+    height: 320px;
+    background-color: $main-color-one;
+    padding: 15px 15px;
+}
+
+.sect-three-minor{
+    width: 100%;
+    height: 320px;
+    background-color: $main-color-one;
+    padding: 0;
+}
+
+.weather{
+    font-size: 90px;
+    margin-bottom: 5px;
+}
+
+.table{
+    width: 100%;
+    height: 100%;
+}
+
