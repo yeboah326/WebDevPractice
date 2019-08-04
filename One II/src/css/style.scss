@@ -1,0 +1,454 @@
+$test-color-one: #ffde22;
+$test-color-two: #78ff1e;
+$test-color-three: #ff6122;
+// -----------------------------------------------------------------
+$main-color-one: rgb(21,34,51);
+$main-color-two: rgb(65,125,255);
+$main-color-three: rgb(255,181,55);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+}
+
+// General Classes
+
+.d-flex{
+    display: flex;
+}
+.d-block{
+    display: block;
+}
+.flex-1{
+    flex: 1;
+}
+.flex-2{
+    flex: 2;
+}
+.flex-3{
+    flex: 3;
+}
+.flex-4{
+    flex: 4;
+}
+.flex-5{
+    flex: 5;
+}
+.flex-6{
+    flex: 6;
+}
+.flex-7{
+    flex: 7;
+}
+.flex-8{
+    flex: 8;
+}
+.flex-9{
+    flex: 9;
+}
+.flex-10{
+    flex: 10;
+}
+.flex-11{
+    flex: 11;
+}
+.flex-12{
+    flex: 12;
+}
+
+// Shadow Classes From Bootstrap
+.shadow-sm{
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  }
+  
+.shadow{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+  
+.shadow-lg{
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+// Shadow Classes From Bootstrap
+
+.text-color-orange{
+    color: $main-color-three;
+}
+.text-color-grey{
+    color: rgb(150, 150, 150);
+}
+.text-align-right{
+    text-align: right;
+}
+.text-align-center{
+    text-align: center;
+}
+
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.justify-content-space-around{
+    justify-content: space-around;
+}
+
+.line-one{
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+.line-two{
+    border: 0.5px solid black;
+    margin-bottom: 10px;
+}
+// General Classes
+
+// Header
+header{
+    height: 10vh;
+    width: 90%;
+    // min-width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+
+
+.logo-container{
+    h3{
+        font-weight: 600;
+        font-size: 25px;
+    }
+}
+
+.nav-links{
+    list-style: none;
+
+    .nav-link{
+        margin-right: 35px;
+        text-decoration: none;
+        color: black;
+        font-weight: 300;
+        cursor: pointer;
+    }
+}
+
+.nav-links-extra{
+    list-style: none;
+    justify-content: flex-end;
+    
+    .nav-link-extra{
+        margin-right: 35px;
+        text-decoration: none;
+        color: black;
+        font-weight: 300;
+        cursor: pointer;
+    }
+}
+
+
+// Introduction Section
+
+.introduction{
+    height: 80vh;
+    width: 90%;
+    // min-width: 1200px;
+    margin: auto;
+}
+
+.location{
+    background-color: $test-color-one;
+    overflow: hidden;
+    background-size: cover;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.slider{
+    background-color: $main-color-one;
+    font-size: 20px;
+}
+// Introduction Section
+
+// Weather Box And Location Info Box
+
+.weather-box{
+    height: 8vh;
+    width: 70%;
+    align-items: baseline;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20%;
+    right: 15%;
+}
+
+.play-box{
+    height: 80%;
+    width: 5%;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.weather-info{
+    height: 100%;
+    width: 50%;
+    background-color: $main-color-two;
+    padding: 20px;
+    text-align: center;
+    color: white;
+
+    span{
+        padding-right: 10%;
+    }
+}
+
+.location-info{
+    height: 12vh;
+    width: 70%;
+    background-color: white;
+    position: absolute;
+    bottom: 5%;
+    right: 15%;
+    padding: 10px;
+}
+
+.continent p{
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.country-plus{
+    align-items: center;
+    height: 70%;
+}
+
+
+.country{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.season{
+    font-weight: 300;
+    text-align: right;
+}
+.plus{
+    height: 70%;
+    width: 50%;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.plus button{
+    background-color: $main-color-three;
+    border: none;
+    height: 100%;
+    width: 30%;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+    align-content: center;
+}
+
+// Weather Box And Location Info Box
+
+// Extra Location Info
+
+.extra-location{
+    width: 90%;
+    height: 45vh;
+    margin: 75px auto 0 auto;
+    padding: 10px;
+}
+
+.company-info{
+    height: 100%;
+    padding: 30px 10px 10px 30px;
+    
+    h3{
+        font-weight: 600;
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    
+    p{
+        margin-bottom: 25px;
+        font-weight: 300;
+    }
+    
+    button{
+        border: none;
+        color: white;
+        background-color: $main-color-three;
+        width: 150px;
+        height: 45px;
+        font-size: 15px;
+    }
+}
+
+.next-location1{
+    height: 100%;
+    
+}
+
+.next-location1-sub{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    font-weight: 300;
+    
+    img{
+        width: 100%;
+        height: 75%;
+    }
+    
+    p{
+        padding-left: 5px;
+    }
+    
+}
+
+.next-location2{
+    height: 100%;
+}
+
+// Extra Location Info
+
+// Location Updates
+
+.location-updates{
+    height: 40vh;
+    width: 90%;
+    margin: 30px auto 15px auto;
+}
+
+.current-weather{    
+    :nth-child(1){
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    
+    :nth-child(2){
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+    
+    :nth-child(3){
+        font-weight: 700;
+        font-size: 85px;
+        padding-bottom: 15px;
+    }
+
+    i{
+        color: $main-color-three;
+    }
+}
+
+.blog-table{
+    height: 100%;
+    width: 75%;
+    padding: 10px;
+    overflow-y: auto;
+    
+    h2
+    {
+        font-weight: 300;
+        
+    }
+}
+
+// Location Updates
+
+@media screen and (max-width: 1024px){
+    .weather-box{
+        align-items: baseline;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 20%;
+        right: 15%;
+    }
+
+    .play-box{
+        width: 8%;
+    }
+    
+    .season{
+        font-size: 13px;
+    }
+    .plus{
+        font-size: 13px;
+    }
+    
+    .extra-location{
+        font-size: 13px;
+    }
+    
+    .blogs p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .logo-container{
+        h3{
+            font-weight: 600;
+            font-size: 13px;
+        }
+    }
+    
+    .nav-link{
+        font-size: 12px;
+    }
+    
+    .nav-link-extra{
+        font-size: 12px;
+    }
+    
+    .season{
+        font-size: 10px;
+    }
+    
+    .plus{
+        font-size: 10px;
+    }
+    
+    .plus button{
+        background-color: $main-color-three;
+        border: none;
+        height: 100%;
+        width: 45%;
+        margin-left: 10px;
+    }
+    
+    .extra-location{
+        font-size: 10px;
+        height: 35vh;
+    }
+    
+    .current-weather p{
+        font-size: 80%;
+    }
+    
+    .blogs p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+}
