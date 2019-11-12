@@ -1,0 +1,1 @@
+This is a template website for a restaurant
